@@ -1,0 +1,11 @@
+Usage:
+Prepare your SMILES files: Create text files where each file contains a list of SMILES strings, one per line.
+
+This command will calculate all available molecular descriptors for the SMILES strings in each file,\
+ plot the distributions of these descriptors, and save the plots in the specified output directory.\
+ Adjust the parameters and paths as necessary for your specific dataset and requirements.
+
+Run the script: Use the following command to execute the script.
+python compare_descriptors.py smiles_file1.txt smiles_file2.txt --labels "Set1,Set2" --output_dir plots
+
+
