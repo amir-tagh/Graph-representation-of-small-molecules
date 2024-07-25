@@ -1,0 +1,6 @@
+Usage:
+Prepare your dataset: Make sure you have a CSV file with a column named 'smiles' containing your SMILES strings.
+Run the script: Use the following command to execute the script.
+
+python combined_script.py your_smiles_dataset.csv "CCO" --num_samples 10 --output_dir output --save_dir models --hidden_size 450 --latent_size 56 --depthT 20 --depthG 3 --batch_size 32 --lr 1e-3 --epochs 10
+

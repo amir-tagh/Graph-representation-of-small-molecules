@@ -1,0 +1,9 @@
+Instructions:
+Install required libraries:
+pip install rdkit moses torch
+Download the pretrained model and vocabulary files from the moses library:
+moses/data/Vocab/canonic_char.pickle
+moses/checkpoints/VAE/VAE.pt
+Run the script:
+python generate_molecules.py "CCO" --num_samples 10 --output_dir "output"
+
