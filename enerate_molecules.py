@@ -1,3 +1,9 @@
+##########################
+#Amirhossein Taghavi
+#UF Scripps
+#07/25/2023
+#########################
+
 import argparse
 from rdkit import Chem
 from rdkit.Chem import Draw
